@@ -13,7 +13,7 @@ function Signup() {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:3000/user/signup",
+        "https://todo-application-er6p.vercel.app/user/signup",
         {
           username,
           email,
