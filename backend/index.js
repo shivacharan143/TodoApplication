@@ -32,6 +32,9 @@ try {
 }
 
 // routes
+app.get('/', (req, res) => {
+  res.send('Server Started Sucessfully');
+});
 app.use("/todo", todoRoute);
 app.use("/user", userRoute);
 
