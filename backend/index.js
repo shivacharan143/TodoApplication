@@ -17,7 +17,7 @@ app.use(cookieParser());
 app.use(
   cors({
     // origin: process.env.FRONTEND_URL,
-      origin:'https://todo-application-three-silk.vercel.app/',
+      origin:'https://todo-application-three-silk.vercel.app',
     credentials: true,
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: ["Content-Type", "Authorization"], // Add other headers you want to allow here.
